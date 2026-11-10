@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Probador de expresiones regulares</title>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Probador de expresiones regulares</h1>
+
+      <form id="formulario">
+        <label for="expresion">Expresión regular:</label>
+        <input id="expresion" placeholder="Ejemplo: ^hola">
+
+        <label for="texto">Texto:</label>
+        <textarea id="texto" rows="5" placeholder="Escribe el texto aquí"></textarea>
+
+        <button type="submit">Comparar</button>
+        <button type="button" id="limpiar">Limpiar</button>
+      </form>
+
+      <p id="resultado" role="status" aria-live="polite" hidden></p>
+    </main>
+  </body>
+</html>
